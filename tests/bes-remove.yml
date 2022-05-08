@@ -1,0 +1,5 @@
+- name: Remove nmap tool
+    apt:
+     name: nmap
+     state: absent
+
