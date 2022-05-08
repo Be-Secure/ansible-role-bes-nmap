@@ -1,0 +1,4 @@
+- name: Update apt cache and make sure nmap is installed
+    apt:
+    name: nmap
+    update_cache: yes
